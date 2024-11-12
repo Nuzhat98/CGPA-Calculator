@@ -16,5 +16,6 @@ public class StudentRequestModel {
 
     private String studentName;
     private String studentDept;
+    private Integer attemptedCredit;
     private Double studentResult;
 }

@@ -5,4 +5,6 @@ import com.example.CGPA_Calculator.Entities.StudentEntity;
 
 public interface StudentService {
     StudentEntity addStudent(StudentRequestModel studentRequestModel);
+
+    void deleteStudent(Long studentId);
 }
